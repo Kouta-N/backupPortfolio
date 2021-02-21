@@ -1,0 +1,438 @@
+/*CSS sheet*/
+body {
+  background: url('~@/assets/image/run.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@keyframes popup {
+  0% {
+    transform: translateY(2em);
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  20%,
+  80% {
+    transform: none;
+    opacity: 1;
+  }
+}
+.header-contents {
+  opacity: 0.7;
+  background: #f6b667;
+  background: -moz-linear-gradient(left, #ffffff 0%, #f6b667 100%);
+  background: -webkit-gradient(
+    linear,
+    left center,
+    right center,
+    from(#ffffff),
+    to(#f6b667)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 0%, #f6b667 100%);
+  background: -o-linear-gradient(left, #ffffff 0%, #f6b667 100%);
+  background: linear-gradient(to right, #ffffff 0%, #f6b667 100%);
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 3em;
+  padding: 0 0.8em;
+  border-bottom: 0.1em solid black;
+}
+.header-button {
+  display: inline;
+  font-size: 0.4em;
+  margin-left: 44.2em;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  color: #fff;
+  background: #00bcd4;
+  box-shadow: 0px 0.1em 0.1em grey;
+}
+.header-button:hover {
+  background-color: #f9ee78;
+}
+.header-button2 {
+  display: inline;
+  font-size: 0.4em;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  color: #fff;
+  background: #00bcd4;
+  box-shadow: 0px 0.1em 0.1em grey;
+}
+.header-button2:hover {
+  background-color: #f9ee78;
+}
+.main-text {
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  text-align: center;
+  font-size: 1.4em;
+}
+.side-text {
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-size: 1.3em;
+}
+.login-box {
+  background: #ccfff2;
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: 0 auto;
+  padding: 1em;
+  width: 40%;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.login-box2 {
+  background: #bff78e;
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: 0 auto;
+  padding: 1em;
+  width: 40%;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.table-align {
+  padding: 0 0 0 6em;
+}
+.login-button {
+  font-size: 0.8em;
+  border-radius: 0.2em;
+  color: black;
+  background: #00bcd4;
+  box-shadow: 0px 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.login-button:hover {
+  background-color: #f9ee78;
+}
+.text-box {
+  animation: popup 2s forwards;
+  font-size: 1.4em;
+  background-image: linear-gradient(#8dfcb9, #d1f6e6);
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: 0em 7em;
+  padding: 1em;
+  width: 40%;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.ranking-box {
+  font-size: 1.4em;
+  animation: popup 2s forwards;
+  text-align: center;
+  background-image: linear-gradient(#6ee3fb, #c6f5ff);
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin-top: -20.8em;
+  margin-left: 40em;
+  padding: 0.5em;
+  width: 20%;
+  box-shadow: 0 0 0.2em 0 rgb(176, 96, 96);
+}
+.table-align {
+  padding: 0 0 0 6em;
+}
+.top-back-button {
+  font-size: 0.8em;
+  border-radius: 0.2em;
+  color: black;
+  background: #82bfeb;
+  box-shadow: 0 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.top-back-button:hover {
+  background-color: rgb(230, 244, 162);
+}
+.links {
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  text-align: center;
+  margin: 1.5em 0 0 21.2em;
+  width: 40%;
+  font-size: 0.9em;
+  font-weight: bold;
+  background: rgb(238, 241, 213);
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 2em;
+  padding-bottom: 0.9em;
+  font-weight: bold;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.search-box {
+  margin-left: 52em;
+}
+.side-button {
+  display: inline-block;
+  width: 15%;
+  font-size: 0.7em;
+  font-weight: bold;
+  background: #bdf88f;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  border-radius: 0.3em;
+  color: black;
+  box-shadow: 0px 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.side-button:hover {
+  background-color: #f9ee78;
+}
+.v-line {
+  display: inline-block;
+  margin-top: -15.3em;
+  margin-left: 15em;
+  display: inline-block;
+  padding-left: 2em;
+  border-right: 0.3em solid black;
+  height: 150em;
+}
+.profile-box {
+  background: beige;
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: -100em 20.5em;
+  padding: 1em;
+  width: 50%;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.profile-box2 {
+  background: white;
+  border-bottom: solid 0.05em #aac5de;
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-weight: bold;
+  box-shadow: 0 0 0.1em 0 grey;
+}
+.account-delete-button {
+  width: 35%;
+  font-size: 0.8em;
+  font-weight: bold;
+  background: red;
+  margin: 2.5em 0 0 5.8em;
+  border-radius: 0.3em;
+  color: black;
+  box-shadow: 0px 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.account-delete-button:hover {
+  background-color: #f9ee78;
+}
+.account-delete-button2 {
+  width: 20%;
+  font-size: 0.8em;
+  font-weight: bold;
+  background: red;
+  margin: 1em 0 0 1em;
+  border-radius: 0.3em;
+  color: black;
+  box-shadow: 0px 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.account-delete-button2:hover {
+  background-color: #f9ee78;
+}
+.back-button {
+  width: 20%;
+  font-size: 0.8em;
+  font-weight: bold;
+  background: rgb(102, 199, 241);
+  margin: 1em 0 0 3em;
+  border-radius: 0.3em;
+  color: black;
+  box-shadow: 0px 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.back-button:hover {
+  background-color: #f9ee78;
+}
+.delete-confirm-box {
+  background: rgb(243, 164, 66);
+  padding: 1em;
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.profile-change-box {
+  width: 100%;
+  background-color: #8dfcdd;
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: -100em 20.5em;
+  padding: 1em;
+  width: 50%;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: 0.2em 0.2em 0 0 grey;
+}
+.form-box {
+  background: white;
+  border-bottom: solid 0.05em #aac5de;
+  font-size: 1em;
+  width: 100%;
+  padding: 0.2em;
+  margin-bottom: 0.4em;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-weight: bold;
+  box-shadow: 0 0 0.1em 0 grey;
+}
+.change-profile-button {
+  margin-left: 2.25em;
+  font-size: 0.8em;
+  background-color: #7fc2f2;
+  border-radius: 0.4em;
+}
+.change-profile-button:hover {
+  background-color: #f9ee78;
+}
+.change-profile-button2 {
+  font-size: 0.8em;
+  background-color: #fbe493;
+  border-radius: 0.4em;
+}
+.change-profile-button2:hover {
+  background-color: #f9ee78;
+}
+.back-profile-button {
+  margin-left: 0.2em;
+  font-size: 0.8em;
+  background-color: #98b7ff;
+  border-radius: 0.4em;
+}
+.back-profile-button:hover {
+  background-color: yellow;
+}
+.plan-make-box {
+  width: 100%;
+  background-image: linear-gradient(#e6ec41, #fdffd0);
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.5em;
+  margin: -97.5em 20.5em;
+  padding: 1em;
+  width: 50%;
+  font-family: 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体';
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: 0.2em 0.2em 0 0 grey;
+}
+.plan-make-button {
+  width: 30%;
+  font-size: 0.8em;
+  font-weight: bold;
+  background: rgb(106, 232, 104);
+  margin: 1em 3em 0 7em;
+  border-radius: 0.3em;
+  color: black;
+  box-shadow: 0px 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.plan-make-button:hover {
+  color: orange;
+}
+.report-box {
+  background-image: linear-gradient(#6df698, #b5ffcc);
+  border-bottom: solid 0.1em #aac5de;
+  border-radius: 0.2em;
+  margin: 0.5em auto 0em;
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  width: 40%;
+  box-shadow: 0 0 0.2em 0 grey;
+}
+.go-plan-make-button {
+  display: block;
+  font-size: 1.2em;
+  width: 15%;
+  margin-left: 38em;
+  margin-top: -123em;
+  margin-bottom: 2em;
+  background-color: #9ff7b6;
+  border-radius: 0.5em;
+}
+.go-plan-make-button:hover {
+  background-color: rgb(255, 240, 79);
+}
+.plan-dispaly-box {
+  display: block;
+  width: 50%;
+  padding: 1em;
+  margin-left: 20em;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+  background-image: linear-gradient(#fbcc6e, #f8ecd5);
+  border-radius: 0.5em;
+  box-shadow: 0px 0.1em 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.plan-information-box {
+  background-color: white;
+  padding: 0.4em;
+}
+.coach-list-box {
+  display: block;
+  width: 50%;
+  padding: 1em;
+  margin-left: 20em;
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+  background-image: linear-gradient(#fbcc6e, #f8ecd5);
+  border-radius: 0.5em;
+  box-shadow: 0px 0.1em 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.coach-plan-button {
+  display: block;
+  font-size: 0.9em;
+  width: 40%;
+  background-color: #9ff7b6;
+  border-radius: 0.9em;
+}
+.coach-plan-button:hover {
+  background-color: #f9ee78;
+}
+.user-plan-dispaly-box {
+  display: block;
+  width: 50%;
+  padding: 1em;
+  margin-left: 20em;
+  font-size: 1.5em;
+  background-image: linear-gradient(#fbcc6e, #f8ecd5);
+  border-radius: 0.5em;
+  box-shadow: 0px 0.1em 0.1em 0.1em grey;
+  border-bottom: solid 0.1em black;
+}
+.list-display-box {
+  display: block;
+  border: solid 0.05em black;
+  background-image: linear-gradient(rgb(93, 232, 193), rgb(139, 244, 214));
+  width: 50%;
+  margin-top: -75em;
+  font-size: 2em;
+  text-align: center;
+  margin-left: 15em;
+  border-radius: 0.4em;
+  box-shadow: 0px 0.1em 0.05em 0.01em grey;
+  border-bottom: solid 0.05em black;
+}
+.coach-search-input {
+  display: block;
+  font-size: 2em;
+  margin-left: 20em;
+  margin-bottom: 0.5em;
+  width: 30%;
+}
+.back-user-coach-list-button {
+  font-size: 1em;
+  margin-left: 30em;
+  margin-bottom: 0.2em;
+  font-weight: bold;
+  background: rgb(102, 199, 241);
+  border-radius: 0.3em;
+}
+.back-user-coach-list-button:hover {
+  background-color: #9defdf;
+}
